@@ -35,4 +35,4 @@ nano /root/.lili/lili.conf
 
 cd /
 cd lili/src/
-/lilid
+./lilid
