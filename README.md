@@ -20,24 +20,8 @@ type Y or Yes enter
 Then it will agogen and then configure the masternode 
 at this point evertything is done on the masternode side besite setting up the masternode config file. 
 
-Copy and past this into the lili.conf file. 
-
-###############################################
-## MY MASTERNODE_01
-###############################################
-rpcuser={CHOOSE A RANDOM USER}
-rpcpassword={CHOOSE A RANDOM PASSWORD}
-rpcallowip=127.0.0.1
-listen=1
-server=1
-daemon=1
-logtimestamps=1
-maxconnections=256
-masternode=1
-externalip={YOUR SERVER IP}
-bind={YOUR SERVER IP}
-masternodeaddr={YOUR SERVER IP}
-masternodeprivkey={YOURPRIVKEY - WE WILL GET THAT LATER}
+when you get to the conif file click on the link with the step by step and go all the way to the bootom intill you see
+MY MASTERNODE_01 copy everything and past it into the config file then save and exit
 
 
 
