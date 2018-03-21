@@ -6,7 +6,8 @@ apt-get install git automake build-essential libtool autotools-dev autoconf pkg-
 apt-get install libboost-all-dev software-properties-common -y
 add-apt-repository ppa:bitcoin/bitcoin -y
 apt-get update && apt-get install libdb4.8-dev libdb4.8++-dev libminiupnpc-dev -y
-
+apt-get update -y
+apt-get upgrade -y
 
 cd 
 
