@@ -11,6 +11,12 @@ have 4 gb of ram to run the masternode with no problme using the hard drive spac
 it will show up with a Nano text file to exit go the the last line and add "/swapfile none swap sw 0 0" - without the "" make shore 
 there is no space at the end or any exter lines on the bottom. 
 
+TO Save and exit 
+-----------------
+CTRL + x 
+type Y or Yes enter 
+----------------
+
 Then it will agogen and then configure the masternode 
 at this point evertything is done on the masternode side besite setting up the masternode config file. 
 
