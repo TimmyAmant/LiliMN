@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sleep 10
+
 apt-get install git automake build-essential libtool autotools-dev autoconf pkg-config libssl-dev -y
 apt-get install libboost-all-dev software-properties-common -y
 add-apt-repository ppa:bitcoin/bitcoin -y
@@ -26,8 +26,8 @@ sleep 10
 cat /proc/meminfo
 sleep 10
 
-
-
+cd /
+sleep 10
 git clone https://github.com/jembem/lili
 sleep 10
 cd lili
