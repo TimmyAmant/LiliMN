@@ -1,38 +1,26 @@
 This is a quick install file i made for LILI Coin Masternode..
 
-to clone the file on to your server run "git" without the "" if it show a help menu then you have git installed then run 
-git clone https://github.com/TimmyAmant/LiliMN 
+to clone the file on to your server run "git" without the "" if it show a help menu then you have git installed 
+
+then run git clone https://github.com/TimmyAmant/LiliMN 
+
 run ls then you should be able to see the folder you just downloaded
 
 Sometimes you may need to give it permissions inoder to run the script file
 
-Cd into the folder 
+cd into the folder.
 
 then type " chmod +x LiLiMasternode.sh " hit enter 
+
 then type " ./LiLIMasternode.sh " - it should run. 
 
-First thing it will install all the dev tools and anything else that is needed for the masternode 
-
-then remove anything that not needed 
-
-after that it will make a swap file for the ram becouse the cheap VPS ony has 1 GB of ram this will make it so that you will 
-have 4 gb of ram to run the masternode with no problme using the hard drive space on the VPS
+when installed the Swap ram to get 4gb of ram with the VPS it will pop up with a Nano file  just add "/swapfile none swap sw 0 0" - without the "" - to save just hit ctrol + x then y and enter. 
 
 
-it will show up with a Nano text file to exit go the the last line and add "/swapfile none swap sw 0 0" - without the "" make shore 
-there is no space at the end or any exter lines on the bottom. 
-
-TO Save and exit 
------------------
-CTRL + x 
-type Y or Yes enter 
-----------------
-
-Then it will agogen and then configure the masternode 
-at this point evertything is done on the masternode side besite setting up the masternode config file. 
-
-when you get to the conif file click on the link with the step by step and go all the way to the bootom intill you see
-MY MASTERNODE_01 copy everything and past it into the config file then save and exit
+Then it will again and then conf file for the masternode 
+at the bottom of the readme file there are two links open the first one 
+go to the bottom of the PDF and copy everything that has to do with the MASTERNODE_01 and past it 
+int he maternode conf file and save and exit just like the swap ram. 
 
 
 
