@@ -30,21 +30,27 @@ sleep 10
 cd /
 sleep 10
 git clone https://github.com/jembem/lili
-sleep 10
+sleep 5
 cd lili
-sleep 10
+sleep 5
 ./autogen.sh
-sleep 10
+sleep 5
 ./configure
-sleep 10
+sleep 5
 make
-sleep 10
+sleep 5
 cd /
-sleep 10
-nano /root/.lili/lili.conf
-sleep 10
-cd /
-sleep 10
+sleep 5
 cd lili/src/
+sleep 5
+./lilid
 sleep 10
+cd /
+sleep 5
+nano /root/.lili/lili.conf
+sleep 5
+cd /
+sleep 5
+cd lili/src/
+sleep 5
 ./lilid
