@@ -8,7 +8,7 @@ Sometimes you may need to give it permissions inoder to run the script file
 
 Cd into the folder 
 
-then type " chmod=+x LiLiMasternode.sh " hit enter 
+then type " chmod +x LiLiMasternode.sh " hit enter 
 then type " ./LiLIMasternode.sh " - it should run. 
 
 First thing it will install all the dev tools and anything else that is needed for the masternode 
