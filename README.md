@@ -6,7 +6,7 @@ run ls then you should be able to see the folder you just downloaded
 
 Sometimes you may need to give it permissions inoder to run the script file
 
-Cd into the folder 
+Cd into the folder.
 
 then type " chmod +x LiLiMasternode.sh " hit enter 
 then type " ./LiLIMasternode.sh " - it should run. 
