@@ -1,7 +1,9 @@
 This is a quick install file i made for LILI Coin Masternode..
 
 to clone the file on to your server run "git" without the "" if it show a help menu then you have git installed 
+
 then run git clone https://github.com/TimmyAmant/LiliMN 
+
 run ls then you should be able to see the folder you just downloaded
 
 Sometimes you may need to give it permissions inoder to run the script file
@@ -9,6 +11,7 @@ Sometimes you may need to give it permissions inoder to run the script file
 Cd into the folder.
 
 then type " chmod +x LiLiMasternode.sh " hit enter 
+
 then type " ./LiLIMasternode.sh " - it should run. 
 
 First thing it will install all the dev tools and anything else that is needed for the masternode 
