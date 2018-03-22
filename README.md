@@ -23,9 +23,25 @@ when installed the Swap ram to get 4gb of ram with the VPS it will pop up with a
 
 
 Then it will again and then conf file for the masternode 
+
 at the bottom of the readme file there are two links open the first one 
-go to the bottom of the PDF and copy everything that has to do with the MASTERNODE_01 and past it 
-int he maternode conf file and save and exit just like the swap ram. 
+
+go to the bottom of the PDF and copy everything that has to do with the MASTERNODE_01 and past it
+int he maternode conf file and save and exit just like the swap ram.
+
+Please change all this to your settings and leave everything else the same 
+
+rpcuser={CHOOSE A RANDOM USER}
+
+rpcpassword={CHOOSE A RANDOM PASSWORD}
+
+externalip={YOUR SERVER IP}
+
+bind={YOUR SERVER IP}
+
+masternodeaddr={YOUR SERVER IP}
+
+masternodeprivkey={YOURPRIVKEY - WE WILL GET THAT LATER}
 
 
 The files will download to /lili/ under the root if you cant find it then open winspc and look there. 
