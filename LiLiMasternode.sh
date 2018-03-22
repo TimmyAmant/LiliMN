@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+apt-get update -y
+apt-get upgrade -y
 apt-get install git automake build-essential libtool autotools-dev autoconf pkg-config libssl-dev -y
 apt-get install libboost-all-dev software-properties-common -y
 add-apt-repository ppa:bitcoin/bitcoin -y
