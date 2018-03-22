@@ -54,3 +54,4 @@ sleep 5
 cd lili/src/
 sleep 5
 ./lilid
+end
