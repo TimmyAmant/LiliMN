@@ -1,5 +1,12 @@
 This is a quick install file i made for LILI Coin Masternode..
 
+Sometimes you may need to give it permissions inoder to run the script file
+
+Cd into the folder 
+
+then type " chmod=+x LiLiMasternode.sh " hit enter 
+then type " ./LiLIMasternode.sh " - it should run. 
+
 First thing it will install all the dev tools and anything else that is needed for the masternode 
 
 then remove anything that not needed 
